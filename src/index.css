@@ -34,6 +34,7 @@ body {
   max-width: 100%;
   min-height: 400px;
   width: 300px;
+  margin-top: 5rem;
   border-radius: 10px;
   -webkit-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.75);
@@ -44,10 +45,48 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 2rem;
+  padding: .9rem;
 }
 
 .header-component .header-title {
   font-size: 3.5rem;
-  margin-left: 2.2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 1rem;
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.2rem;
+}
+
+.question-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  gap: 2rem;
+}
+
+.question {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.open-icon {
+  margin-left: 2rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  width: 20%;
 }
