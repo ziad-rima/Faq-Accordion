@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
--[Solution URL]()
--[Live Site URL](https://faqsfront.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-faqs-website-using-react-T1hu6EOCya)
+- [Live Site URL](https://faqsfront.netlify.app/)
 
 ## My process
 
