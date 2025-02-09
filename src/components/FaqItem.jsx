@@ -4,6 +4,7 @@ import MinusIcon from "./MinusIcon"
 const FaqItem = ({question, answer}) => {
 
     const [isOpen, setIsOpen] = useState(false);
+    
 
     return (
     <div className="faq-item">
@@ -16,6 +17,7 @@ const FaqItem = ({question, answer}) => {
         
         <div className={`answer-container ${isOpen ? 'open' : ''}`}>
             <p className="answer">{answer}</p>
+            <div className="divider"></div>
         </div>
     </div>
   )
